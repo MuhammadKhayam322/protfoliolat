@@ -11,9 +11,9 @@ const EducationAndSkills: React.FC = () => {
   const [activeSection, setActiveSection] = useState<'education' | 'skills' | 'achievements'>('education');
 
   const educationData = [
-    { institution: "Governament High School Sawal Dher Mardan ", degree: "Matriculation  | 72%" },
-    { institution: "Governament High School Gaddar Mardan", degree: "Fsc | 68%" },
-    { institution: "Governament Technical Vocational Center Gujrat Mardan", degree: "Diploma Inforamtion Technology  | 64%" },
+    { institution: "Government High School Sawal Dher Mardan ", degree: "Matriculation  | 72%" },
+    { institution: "Government Higher secondray School Gaddar Mardan", degree: "Fsc | 68%" },
+    { institution: "Government Technical Vocational Center Gujrat Mardan", degree: "Diploma Inforamtion Technology  | 64%" },
   ];
 
   const skillsData = [
